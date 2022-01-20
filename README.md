@@ -33,3 +33,8 @@ lunch sdk_car_x86_64-userdebug
 m -j24
 ```
 Note: The -j argument makes the build handles parallel task, the recommended number to pass is the double of processing units that you have in your system. You can get it by the command `nproc` and just multiply this number by 2.
+
+## Exploring CarSettings app
+Car Settings is a hero android app located at `packages/apps/Car/Settings`. Google provides the app architecture overview, available at https://source.android.com/devices/automotive/hmi/car_settings.
+This is the Car Settings app on AAOS 12 (Android Automotive OS):
+![Settings App](readme/settings_app.png)
