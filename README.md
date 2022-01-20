@@ -8,7 +8,7 @@ Instructions for setup available at https://source.android.com/setup.
 ### Requisites
 - 64-bit environment (currently using Ubuntu 20.04).
 - At least 16 GB of available RAM is required, but Google recommends 64 GB.
-- At least 150GB of free space on the disk.
+- At least 150 GB of free space on the disk.
 
 ### Setting up Linux build environment
 ```
