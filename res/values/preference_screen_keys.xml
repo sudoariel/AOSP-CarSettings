@@ -93,4 +93,6 @@
     <string name="psk_wifi_list" translatable="false">wifi_list_screen</string>
     <string name="psk_wifi_preferences" translatable="false">wifi_preferences_screen</string>
     <string name="psk_wifi_tether" translatable="false">wifi_tether_screen</string>
-</resources>
+    <!-- Custom Settings Preference Screen Key (added) -->
+    <string name="psk_custom_settings" translatable="false">custom_settings_screen</string>
+  </resources>

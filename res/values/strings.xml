@@ -1659,4 +1659,9 @@
     <string name="share_remote_bugreport_action" translatable="false">Share</string>
     <!-- Decline label of dialog shown to ask for user consent for sharing the remote bugreport. [CHAR LIMIT=20] -->
     <string name="decline_remote_bugreport_action" translatable="false">Decline</string>
+
+    <!-- Custom settings --><skip/>
+    <!-- Custom settings screen heading (added) -->
+    <string name="custom_settings" translatable="false">Custom Settings</string>
+    <string name="datetime_custom_preference_title" translatable="false">View date and time</string>
 </resources>

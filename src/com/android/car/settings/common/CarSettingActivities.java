@@ -69,6 +69,7 @@ import com.android.car.settings.wifi.AddWifiFragment;
 import com.android.car.settings.wifi.WifiSettingsFragment;
 import com.android.car.settings.wifi.WifiTetherFragment;
 import com.android.car.settings.wifi.preferences.WifiPreferencesFragment;
+import com.android.car.settings.custom.CustomSettingsFragment;
 
 /**
  * Top level settings class, containing static instances of CarSettings activities.
@@ -76,6 +77,14 @@ import com.android.car.settings.wifi.preferences.WifiPreferencesFragment;
 public class CarSettingActivities {
 
     private static final Logger LOG = new Logger(CarSettingActivities.class);
+
+    public static class CustomSettingsActivity extends BaseCarSettingsActivity {
+        @Nullable
+        @Override
+        protected Fragment getInitialFragment() {
+            return new CustomSettingsFragment();
+        }
+    }
 
     /**
      * QuickSettings Activity.

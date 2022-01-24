@@ -50,6 +50,8 @@
     <string name="pk_system_settings_entry" translatable="false">system_settings_entry</string>
     <string name="pk_device_extra_settings" translatable="false">device_extra_settings</string>
     <string name="pk_personal_extra_settings" translatable="false">personal_extra_settings</string>
+    <!-- Custom Settings Entry (added) -->
+    <string name="pk_custom_settings_entry" translatable="false">custom_settings_entry</string>
 
     <!-- Network -->
     <string name="pk_mobile_network_settings_entry" translatable="false">
@@ -486,4 +488,8 @@
     <string name="pk_device_admin_add_support" translatable="false">device_admin_add_support</string>
     <string name="pk_device_admin_add_action" translatable="false">device_admin_add_action</string>
     <string name="pk_device_admin_add_cancel" translatable="false">device_admin_add_cancel</string>
+
+    <!-- Custom Settings (added) -->
+    <string name="pk_custom_parameter_1" translatable="false">custom_settings_datetime_viewer</string>
+
 </resources>
