@@ -38,3 +38,6 @@ Note: The -j argument makes the build handles parallel task, the recommended num
 Car Settings is a hero android app located at `packages/apps/Car/Settings`. Google provides the app architecture overview, available at https://source.android.com/devices/automotive/hmi/car_settings.
 This is the Car Settings app on AAOS 12 (Android Automotive OS):
 ![Settings App](readme/settings_app.png)
+
+## Adding a custom settings item
+Check the branch [adding_custom_settings](https://github.com/sudoariel/AOSP-CarSettings/tree/adding_custom_settings)
