@@ -85,7 +85,7 @@ public class CarSettingActivities {
             return new CustomSettingsFragment();
         }
     }
-
+    /**
      * QuickSettings Activity.
      */
     public static class QuickSettingActivity extends BaseCarSettingsActivity {
