@@ -86,7 +86,6 @@ public class CarSettingActivities {
         }
     }
 
-    /**
      * QuickSettings Activity.
      */
     public static class QuickSettingActivity extends BaseCarSettingsActivity {
