@@ -1,13 +1,14 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/sound_settings"
+    android:title="@string/custom_settings"
     android:key="@string/psk_custom_settings">
 
     <Preference
         android:key="@string/pk_custom_parameter_1"
         android:title="@string/datetime_custom_preference_title"
         settings:controller="com.android.car.settings.common.DefaultRestrictionsPreferenceController"
-        settings:searchable="false"/>
+        settings:searchable="false">
+    </Preference>
 
 </PreferenceScreen>

@@ -968,6 +968,9 @@
             android:name=".common.CarSettingActivities$CustomSettingsActivity"
             android:exported='true'>
             <meta-data android:name="distractionOptimized" android:value="true"/>
+            <meta-data android:name="com.android.car.settings.TOP_LEVEL_HEADER_KEY"
+                android:value="@string/hk_CustomSettingsActivity" />
+
         </activity>
 
     </application>

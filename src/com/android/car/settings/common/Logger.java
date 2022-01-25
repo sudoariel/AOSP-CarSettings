@@ -48,7 +48,7 @@ public final class Logger {
      * Returns true when it is desired to force log all messages.
      */
     protected boolean forceAllLogging() {
-        return false;
+        return true;
     }
 
     /**
