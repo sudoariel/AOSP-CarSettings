@@ -965,7 +965,7 @@
 
         <!-- Custom Settings (added) -->
         <activity
-            android:name=".common.CarSettingsActivities$CustomSettingsActivity"
+            android:name=".common.CarSettingActivities$CustomSettingsActivity"
             android:exported='true'>
             <meta-data android:name="distractionOptimized" android:value="true"/>
         </activity>
