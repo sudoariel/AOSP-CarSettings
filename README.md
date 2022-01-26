@@ -40,4 +40,5 @@ This is the Car Settings app on AAOS 12 (Android Automotive OS):
 ![Settings App](readme/settings_app.png)
 
 ## Adding a custom settings item
+![Settings App modified](readme/settings_app_modified.png)
 Check the branch [adding_custom_settings](https://github.com/sudoariel/AOSP-CarSettings/tree/adding_custom_settings)
