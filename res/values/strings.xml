@@ -1662,6 +1662,6 @@
 
     <!-- Custom settings --><skip/>
     <!-- Custom settings screen heading (added) -->
-    <string name="custom_settings" translatable="false">Custom Settings</string>
-    <string name="datetime_custom_preference_title" translatable="false">View date and time</string>
+    <string name="custom_settings_title" translatable="false">Custom Settings</string>
+    <string name="custom_preference_title" translatable="false">Custom preference</string>
 </resources>

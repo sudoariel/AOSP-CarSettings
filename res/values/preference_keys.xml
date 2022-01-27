@@ -490,6 +490,6 @@
     <string name="pk_device_admin_add_cancel" translatable="false">device_admin_add_cancel</string>
 
     <!-- Custom Settings (added) -->
-    <string name="pk_custom_parameter_1" translatable="false">custom_settings_datetime_viewer</string>
+    <string name="pk_custom_preference_1" translatable="false">custom_settings_preference_1</string>
 
 </resources>
