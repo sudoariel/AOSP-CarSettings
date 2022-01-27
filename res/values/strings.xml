@@ -1659,4 +1659,6 @@
     <string name="share_remote_bugreport_action" translatable="false">Share</string>
     <!-- Decline label of dialog shown to ask for user consent for sharing the remote bugreport. [CHAR LIMIT=20] -->
     <string name="decline_remote_bugreport_action" translatable="false">Decline</string>
+    
+    <string name="info_settings_title" translatable="false">Info</string>
 </resources>
