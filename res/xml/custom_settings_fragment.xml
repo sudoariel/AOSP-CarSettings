@@ -5,8 +5,8 @@
     android:key="@string/psk_custom_settings">
 
     <Preference
-        android:key="@string/pk_custom_parameter_1"
-        android:title="@string/datetime_custom_preference_title"
+        android:key="@string/pk_custom_preference_1"
+        android:title="@string/custom_preference_title"
         settings:controller="com.android.car.settings.common.DefaultRestrictionsPreferenceController"
         settings:searchable="false">
     </Preference>

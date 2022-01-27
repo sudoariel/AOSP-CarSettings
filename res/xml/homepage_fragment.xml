@@ -108,7 +108,7 @@
         android:fragment="com.android.car.settings.custom.CustomSettingsFragment"
         android:icon="@drawable/ic_top_level_system"
         android:key="@string/pk_custom_settings_entry"
-        android:title="@string/custom_settings"
+        android:title="@string/custom_settings_title"
         settings:controller="com.android.car.settings.common.DefaultRestrictionsPreferenceController"/>
     <com.android.car.settings.common.LogicalPreferenceGroup
         android:key="@string/pk_device_extra_settings"
