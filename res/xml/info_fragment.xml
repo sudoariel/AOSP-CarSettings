@@ -6,6 +6,14 @@
     android:title="@string/info_settings_title"
     android:key="@string/psk_info_settings">
    
-
+    <Preference
+        android:key="@string/pk_info_settings_date_view"
+        android:title="@string/info_settings_date_title"
+        settings:controller="com.android.car.settings.info.DateViewPreferenceController"/>
+    
+    <Preference
+        android:key="@string/pk_info_settings_time_view"
+        android:title="@string/info_settings_time_title"
+        settings:controller="com.android.car.settings.info.TimeViewPreferenceController"/>
     
 </PreferenceScreen>

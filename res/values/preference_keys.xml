@@ -486,4 +486,11 @@
     <string name="pk_device_admin_add_support" translatable="false">device_admin_add_support</string>
     <string name="pk_device_admin_add_action" translatable="false">device_admin_add_action</string>
     <string name="pk_device_admin_add_cancel" translatable="false">device_admin_add_cancel</string>
+
+    <!-- Info Settings -->
+    <string name="pk_info_settings_entry" translatable="false">info_settings_entry</string>
+    <string name="pk_info_settings_date_view" translatable="false">info_settings_date_view</string>
+    <string name="pk_info_settings_time_view" translatable="false">info_settings_time_view</string>
+
+
 </resources>

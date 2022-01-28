@@ -330,6 +330,14 @@
         </activity>
 
         <activity
+            android:name=".common.CarSettingActivities$InfoSettingsActivity"
+            android:exported="true">
+            <meta-data android:name="com.android.car.settings.TOP_LEVEL_HEADER_KEY"
+                       android:value="@string/hk_InfoSettingsActivity" />
+            <meta-data android:name="distractionOptimized" android:value="true"/>
+        </activity>
+
+        <activity
             android:name=".common.CarSettingActivities$WifiSettingsActivity"
             android:windowSoftInputMode="adjustPan"
             android:exported="true">

@@ -1661,4 +1661,6 @@
     <string name="decline_remote_bugreport_action" translatable="false">Decline</string>
     
     <string name="info_settings_title" translatable="false">Info</string>
+    <string name="info_settings_date_title" translatable="false">Date</string>
+    <string name="info_settings_time_title" translatable="false">Time</string>
 </resources>

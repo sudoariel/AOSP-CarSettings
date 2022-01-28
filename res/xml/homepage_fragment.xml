@@ -104,6 +104,12 @@
         android:key="@string/pk_system_settings_entry"
         android:title="@string/system_setting_title"
         settings:controller="com.android.car.settings.common.DefaultRestrictionsPreferenceController"/>
+    <com.android.car.settings.common.TopLevelPreference
+        android:fragment="com.android.car.settings.info.InfoFragment"
+        android:icon="@drawable/ic_top_level_info"
+        android:key="@string/pk_info_settings_entry"
+        android:title="@string/info_settings_title"
+        settings:controller="com.android.car.settings.common.DefaultRestrictionsPreferenceController"/>    
     <com.android.car.settings.common.LogicalPreferenceGroup
         android:key="@string/pk_device_extra_settings"
         settings:controller="com.android.car.settings.common.ExtraSettingsPreferenceController">
