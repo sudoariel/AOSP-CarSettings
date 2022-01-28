@@ -53,3 +53,5 @@ Check the branch [adding_custom_settings](https://github.com/sudoariel/AOSP-CarS
 - Create preferences to display device info (date, time, etc...).
 
 Check the branch [custom_preferences_with_controller](https://github.com/sudoariel/AOSP-CarSettings/tree/custom_preferences_with_controller)
+
+![Info Settings](readme/info_settings_screen.png)
