@@ -7,16 +7,20 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import androidx.preference.Preference;
 import com.android.car.settings.common.FragmentController;
+import com.android.car.settings.common.Logger;
 import com.android.car.settings.common.PreferenceController;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class DateViewPreferenceController extends PreferenceController<Preference> {
 
+    private final Logger LOG = new Logger(DateViewPreferenceController.class);
     private final IntentFilter mIntentFilter;
-    private Integer mCounter = 0;
     private final BroadcastReceiver mTimeChangeReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            mCounter++;
+            LOG.d("TimeChangeReceiver - " + intent.getAction());
             refreshUi();
         }
     };
@@ -27,6 +31,8 @@ public class DateViewPreferenceController extends PreferenceController<Preferenc
             FragmentController fragmentController, CarUxRestrictions uxRestrictions) {
         super(context, preferenceKey, fragmentController, uxRestrictions);
 
+        LOG.d("Constructor called");
+
         // Filtering intents related to possible date changes.
         mIntentFilter = new IntentFilter();
         mIntentFilter.addAction(Intent.ACTION_TIME_CHANGED);
@@ -36,13 +42,13 @@ public class DateViewPreferenceController extends PreferenceController<Preferenc
 
     @Override
     protected void onStartInternal() {
-        // Restarting counter
-        mCounter = 0;
+        LOG.d("onStartInternal()");
         getContext().registerReceiver(mTimeChangeReceiver, mIntentFilter);
     }
 
     @Override
     protected void onStopInternal() {
+        LOG.d("onStopInternal()");
         getContext().unregisterReceiver(mTimeChangeReceiver);
     }
     
@@ -53,6 +59,10 @@ public class DateViewPreferenceController extends PreferenceController<Preferenc
 
     @Override
     public void updateState(Preference preference) {
-        preference.setSummary(mCounter.toString());
+        Date currentTime = Calendar.getInstance().getTime();
+        String pattern = "yyyy-MM-dd";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        String date = simpleDateFormat.format(currentTime); 
+        preference.setSummary(date.substring(0, 1).toUpperCase() + date.substring(1));
     }
 }
