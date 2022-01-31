@@ -54,4 +54,4 @@ Check the branch [adding_custom_settings](https://github.com/sudoariel/AOSP-CarS
 
 Check the branch [custom_preferences_with_controller](https://github.com/sudoariel/AOSP-CarSettings/tree/custom_preferences_with_controller)
 
-![Info Settings](readme/info_settings_date.png)
+![Info Settings](readme/info_settings.png)
