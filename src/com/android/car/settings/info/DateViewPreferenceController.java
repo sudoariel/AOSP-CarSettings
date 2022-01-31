@@ -33,7 +33,9 @@ public class DateViewPreferenceController extends PreferenceController<Preferenc
 
         LOG.d("Constructor called");
 
-        // Filtering intents related to possible date changes.
+        // ACTION_TIME_CHANGED listens to changes to the autoDatetime toggle to update the time.
+        // ACTION_TIME_TICK listens to the minute changes to update the shown time.
+        // ACTION_TIMEZONE_CHANGED listens to time zone changes to update the shown time.
         mIntentFilter = new IntentFilter();
         mIntentFilter.addAction(Intent.ACTION_TIME_CHANGED);
         mIntentFilter.addAction(Intent.ACTION_TIME_TICK);
@@ -60,6 +62,7 @@ public class DateViewPreferenceController extends PreferenceController<Preferenc
     @Override
     public void updateState(Preference preference) {
         Date currentTime = Calendar.getInstance().getTime();
+        LOG.d("updateState()");
         String pattern = "yyyy-MM-dd";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
         String date = simpleDateFormat.format(currentTime); 
