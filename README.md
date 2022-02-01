@@ -30,7 +30,7 @@ To complete any operations needed when the controller is destroyed e.g. freeing 
 Returns the AvailabilityStatus for the setting. This status is used to determine if the setting should be shown, hidden, or disabled. Defaults to *AVAILABLE*. This will be called before the controller lifecycle begins and on refresh events.
 
 #### **updateState(Preference)**
-To update the presentation of the preference for the current system state (summary, switch state, etc). If the preference has dynamic content (such as preferences added to a group), it may be updated here as well. Operations should be idempotent as this may be called multiple times. This will only be called when the following are true: getAvailabilityStatus()} returns *AVAILABLE* and onCreateInternal() has completed.
+To update the presentation of the preference for the current system state (summary, switch state, etc). If the preference has dynamic content (such as preferences added to a group), it may be updated here as well. Operations should be idempotent as this may be called multiple times. This will only be called when the following are true: getAvailabilityStatus() returns *AVAILABLE* and onCreateInternal() has completed.
 
 #### **onApplyUxRestrictions(CarUxRestrictions)**
 Updates the preference enabled status given the RestrictionInfo. This will be called before the controller lifecycle begins and on refresh events. The preference is disabled by default when  CarUxRestrictions#UX_RESTRICTIONS_NO_SETUP is set in UxRestrictions. Subclasses may override this method to modify enabled state based on additional driving restrictions.
