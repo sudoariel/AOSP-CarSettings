@@ -3,7 +3,7 @@ CarSettings AOSP (Android 12) exploration and customization. Creating new settin
 This code is based on the branch *android-12.0.0_r26* from AOSP and located at `packages/apps/Car/Settings`.
 
 ## Get started
-All the following steps are based on the AOSP documentation pageprovided by Google.<br>
+All the following steps are based on the AOSP documentation page provided by Google.<br>
 Instructions for setup available at https://source.android.com/setup.
 ### Requisites
 - 64-bit environment (currently using Ubuntu 20.04).
